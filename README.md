@@ -9,10 +9,10 @@ This script will block the specified IP from accessing your important services.
 -ssh 
 -pop3 
 
-## usage : 
+# usage : 
 
 ./iptables {ip_blocked]
 
-##install the script : 
+# install the script : 
 ``` bash  
 git clone https://https://github.com/badrchoukri/iptables_blocker.git
