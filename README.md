@@ -8,10 +8,11 @@ This script will block the specified IP from accessing your important services.
 -telnet
 -ssh 
 -pop3 
-##usage : 
+
+## usage : 
 
 ./iptables {ip_blocked]
 
 ##install the script : 
-```bash  
+``` bash  
 git clone https://https://github.com/badrchoukri/iptables_blocker.git
