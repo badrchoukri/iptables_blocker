@@ -8,6 +8,7 @@ This script will block the specified IP from accessing your important services.
 -telnet
 -ssh 
 -pop3 
+-sftp
 
 # usage : 
 
