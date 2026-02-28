@@ -1,19 +1,31 @@
-# iptables_blocker
-Hey guys, I hope y'all are doing well. I'm back with another script that will help you respond to incidents.
-This script will block the specified IP from accessing your important services.
-  like :
--http
--https
--ftp
--telnet
--ssh 
--pop3 
--sftp
+# 🔥 Simple Firewall IP Blocker (iptables)
 
-# usage : 
+A lightweight Bash script that blocks a specific IP address from accessing common services on a Linux machine using **iptables**.
 
-./iptables {ip_blocked]
+## 📌 Features
 
-# install the script : 
-``` bash  
-git clone https://https://github.com/badrchoukri/iptables_blocker.git
+- Blocks an IP from:
+  - SSH (22)
+  - HTTP (80)
+  - HTTPS (443)
+  - Telnet (23)
+  - FTP (21)
+- Displays updated firewall rules
+- Simple and easy to use
+- Includes help option (`-h`)
+
+---
+
+## 🛠️ Technologies Used
+
+- Bash
+- iptables (Linux Firewall)
+
+---
+
+## 🚀 Usage
+
+### 1️⃣ Give execution permission:
+
+```bash
+chmod +x firewall_blocker.sh
