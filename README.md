@@ -48,12 +48,12 @@ sudo ./firewall_blocker.sh 192.168.1.100
 
 ## 📖 How It Works
 
-# The script:
+- The script:
 
-- Checks if iptables is installed.
-
-- Takes an IP address as input.
-
-- Adds firewall rules to block access to selected ports.
-
-- Displays the current firewall rules.
+  - Checks if iptables is installed.
+  
+  - Takes an IP address as input.
+  
+  - Adds firewall rules to block access to selected ports.
+  
+  - Displays the current firewall rules.
